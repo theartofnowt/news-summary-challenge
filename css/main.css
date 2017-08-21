@@ -1,0 +1,24 @@
+body {
+  background: #e6ecf0;
+  color: #404040;
+  font: 100 1em/150% "proxima-nova", Helvetica, sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.Grid {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.Grid-cell {
+  flex: 1;
+}
+
+@media all and (max-width: 600px) {
+  .grid { float: left }
+}
